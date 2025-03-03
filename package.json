@@ -1,14 +1,15 @@
 {
-  "name": "free-nextjs-admin-dashboard",
+  "name": "@printvisionbolt/dashboard",
   "version": "2.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3003",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@printvisionbolt/ui": "*",
     "@fullcalendar/core": "^6.1.15",
     "@fullcalendar/daygrid": "^6.1.15",
     "@fullcalendar/interaction": "^6.1.15",
@@ -34,6 +35,8 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
+    "@printvisionbolt/eslint-config": "*",
+    "@printvisionbolt/typescript-config": "*",
     "@eslint/eslintrc": "^3",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
